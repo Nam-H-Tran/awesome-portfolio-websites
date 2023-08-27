@@ -5,25 +5,38 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Project Manager",
+    cardImage: "assets/images/experience-page/Revalize.jpg",
+    place: "Revalize",
+    time: "(Sep, 2021 - May 2022)",
+    desp: "<li>Managed a $2 million budget for 5 software customization projects simultaneously.</li>\
+		   <li>Led a team of 8 geographically dispersed professionals to build customized software, achieving 40% labor cost reduction.</li>\
+		   <li>Planned project schedule 3 months ahead to mitigate conflicts, identified risks and opportunities, and communicated the strategic plan to executive leadership.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Systems Engineer",
+    cardImage: "assets/images/experience-page/Aerojet_Rocketdyne.jpg",
+    place: "Aerojet Rocketdyne",
+    time: "(Jan 2019 - Sep 2021)",
+    desp: "<li>Optimized flight vehicle trajectory analysis simulation process by 15%.</li>\
+		   <li>Collaborated with project managers to align technical requirements with budgeted project scope and schedule.</li>\
+		   <li>Generated technical requirements for six strategic Independent Research and Development (IRAD) projects.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Undergraduate Research Assistant",
+    cardImage: "assets/images/experience-page/UCF.png",
+    place: "University of Central Florida",
+    time: "(May 2018 - Jan 2019)",
+    desp: "<li>Developed MATLAB code representing three degrees of freedom (3DOF) and 6DOF simulation and analysis of systems structures.</li>\
+		   <li>Reviewed and validated code results with PATRAN/NX Nastran finite element analysis software.</li>",
+  },
+  {
+    title: "Undergraduate Teaching Assistant",
+    cardImage: "assets/images/experience-page/UCF.png",
+    place: "University of Central Florida",
+    time: "(Aug 2017 - May 2018)",
+    desp: "<li>Instructed students in the fundamentals of engineering including computer-aided design (CAD), Microsoft Excel, Coding, AutoCAD, and engineering ethics.</li>\
+		   <li>Collaborated with the professor and graduate teaching assistant in developing and implementing lesson plan.</li>",
   },
 ];
 
